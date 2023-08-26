@@ -41,7 +41,7 @@ CREATE TABLE OrderProduct (
 CREATE TABLE Orderr (
     ID       INTEGER NOT NULL
                      UNIQUE,
-    Quantity INTEGER NOT NULL,
+    Quantity INTEGER,
     BuyerID  INTEGER NOT NULL,
     Date     TEXT    NOT NULL,
     Status   TEXT    NOT NULL,
